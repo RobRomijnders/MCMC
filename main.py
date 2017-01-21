@@ -62,7 +62,7 @@ class acceptance():
     
 """Start with MCMC"""
 mean = np.array([2.3, 2.4])
-cov = np.array([[1.0,1.7],[1.7,3.0]])
+cov = np.array([[1.0,1.1],[1.1,2.0]])
 
 rhos = np.array([0.05,0.1,0.5,1.0])
 R = len(rhos)
@@ -87,7 +87,7 @@ ax[1,0].set_ylabel('KL divergence')
 Qs = [proposal(rho) for rho in rhos]
 rej = [0]*R
 
-state = [2+np.random.rand(2) for _ in range(R)]
+state = [2+np.random.rand(2) for _ in range(R)]  #Random state to start from. This can be any random start function
 states = [[s] for s in state]
 for i in range(max_iter):
   if i%50 == 0: print(i)
