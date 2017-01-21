@@ -10,6 +10,8 @@ By no means is this production code. We have the following setup
 # Result
 Here's some examples of the output
 ![run1](https://github.com/RobRomijnders/MCMC/blob/master/im/MCMC.gif?raw=true)
+![run2](https://github.com/RobRomijnders/MCMC/blob/master/im/MCMC1.gif?raw=true)
+![run2](https://github.com/RobRomijnders/MCMC/blob/master/im/MCMC2.gif?raw=true)
 
 As always, I am curious to any comments and questions. Reach me at romijndersrob@gmail.com
 
